@@ -1,0 +1,20 @@
+.tech-slideshow {
+    height: 150px;
+    overflow: hidden;
+
+    .mover-1 {
+        height: 150px;
+        width: max-content;
+        animation: moveSlideshow 20s linear infinite;
+        img {
+            display:inline-block;
+            width:300px;
+        }
+      }
+  }
+  
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-2100px);
+    }
+  }

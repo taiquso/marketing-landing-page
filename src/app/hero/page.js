@@ -4,7 +4,9 @@ export default function HeroPage() {
   return (
     <>
       <div className="py-5 h-screen">
-        <Hero />
+        <div className="bg-white h-full rounded-lg">
+          <Hero />
+        </div>
       </div>
     </>
   );

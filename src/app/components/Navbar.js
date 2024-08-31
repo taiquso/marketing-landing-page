@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="py-8 mx-5 flex justify-between overflow-hidden">
-      <div className="flex items-center gap-24">
+      <div className="flex items-center gap-16">
         <Image src={Logo} alt="alt" width={110} height={0} />
         <div className="lg:flex gap-12 text-neutral-500 hidden">
           <a href="" className="">
@@ -83,10 +83,10 @@ export default function Navbar() {
             </div>
             <div className="w-full flex justify-center absolute bottom-5 left-0">
               <div className="flex flex-col md:flex-row w-full gap-5 px-5 md:justify-center">
-                <button className="bg-white px-5 border border-neutral-400 border-opacity-30 py-2 rounded shadow-md hover:opacity-75 md:w-[335px]">
+                <button className="bg-white border border-neutral-400 border-opacity-30 py-2 rounded shadow-md hover:opacity-75 md:w-[335px]">
                   Learn more
                 </button>
-                <button className="text-white bg-indigo-700 px-5 py-2 rounded shadow-md hover:opacity-85 md:w-[335px]">
+                <button className="text-white bg-indigo-700 py-2 rounded shadow-md hover:opacity-85 md:w-[335px]">
                   Try it out
                 </button>
               </div>
