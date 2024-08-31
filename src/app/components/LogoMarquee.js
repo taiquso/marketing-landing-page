@@ -28,7 +28,7 @@ export default function LogoMarquee() {
     { src: logo7, alt: "Logo 7" },
   ];
   return (
-    <div className="tech-slideshow">
+    <div className="tech-slideshow my-24">
       <p className="text-center text-neutral-600">Used by teams you love</p>
       <div className="mover-1">
         {logos.map((logo, index) => (
